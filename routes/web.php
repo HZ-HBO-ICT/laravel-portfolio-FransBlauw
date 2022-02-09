@@ -31,3 +31,7 @@ Route::get('/posts/{post}', function ($post) {
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get(/portfolio', function () {
+    return view('portfolio1');
+});
